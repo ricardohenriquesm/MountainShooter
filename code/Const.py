@@ -6,7 +6,27 @@ COLOR_WHITE = (255,255,255)
 COLOR_YELLOW = (255,255,0)
 
 # E
+ENTITY_HEALTH = {
+    'Level1Bg0': 999,
+    'Level1Bg1': 999,
+    'Level1Bg2': 999,
+    'Level1Bg3': 999,
+    'Level1Bg4': 999,
+    'Level1Bg5': 999,
+    'Level1Bg6': 999,
+    'Level2Bg0': 999,
+    'Level2Bg1': 999,
+    'Level2Bg2': 999,
+    'Level2Bg3': 999,
+    'Level2Bg4': 999,
+    'Player1': 300,
+    'Player2': 300,
+    'Enemy1': 50,
+    'Enemy2': 60,
+}
+
 EVENT_ENEMY = pygame.USEREVENT + 1
+
 ENTITY_SPEED = {
     'Level1Bg0': 0,
     'Level1Bg1': 1,
@@ -42,7 +62,7 @@ PLAYER_KEY_SHOOT = {'Player1': pygame.K_RCTRL,
 
 
 # S
-SPAWN_TIME = 40000
+SPAWN_TIME = 4000
 
 # W
 WIN_WIDTH = 576
