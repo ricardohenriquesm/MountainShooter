@@ -7,9 +7,6 @@ C_YELLOW = (255, 255, 0)
 C_GREEN = (0, 128, 0)
 C_CYAN = (0, 128, 128)
 
-
-
-
 # E
 EVENT_TIMEOUT = pygame.USEREVENT + 2
 
@@ -132,17 +129,15 @@ PLAYER_KEY_LEFT = {'Player1': pygame.K_LEFT,
 PLAYER_KEY_RIGHT = {'Player1': pygame.K_RIGHT,
                     'Player2': pygame.K_d}
 PLAYER_KEY_SHOT = {'Player1': pygame.K_RCTRL,
-                    'Player2': pygame.K_LCTRL}
-
+                   'Player2': pygame.K_LCTRL}
 
 # S
 SPAWN_TIME = 2000
 
-
 # T
 TIMEOUT_STEP = 100
 
-TIMEOUT_LEVEL = 5000
+TIMEOUT_LEVEL = 20000
 # W
 WIN_WIDTH = 576
 WIN_HEIGHT = 326
